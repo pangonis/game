@@ -1,4 +1,10 @@
-
+import {ready} from './utils';
+import {runApp} from './app';
 import './styles.css';
-console.log('Ready to Party With Some TypeScript!');
+
+ready(runApp);
+
+function doIt() {
+    console.log('ready to party');
+}
 
